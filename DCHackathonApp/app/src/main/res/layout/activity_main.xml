@@ -44,14 +44,61 @@
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="104dp" />
 
-    <Button
-        android:id="@+id/button"
+    <RadioButton
+        android:id="@+id/motivational"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="buttonOnClick"
-        android:text="Button"
-        tools:layout_editor_absoluteX="148dp"
+        android:text="Motivational"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <RadioButton
+        android:id="@+id/heartbreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heartbreak"
+        tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="239dp" />
+
+    <RadioButton
+        android:id="@+id/latenight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Late Night"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <RadioButton
+        android:id="@+id/cheerful"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheerful"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <RadioButton
+        android:id="@+id/energetic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Energetic"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <RadioButton
+        android:id="@+id/somber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Somber"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <RadioButton
+        android:id="@+id/hype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hype"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="399dp" />
 
 </android.support.constraint.ConstraintLayout>
 
