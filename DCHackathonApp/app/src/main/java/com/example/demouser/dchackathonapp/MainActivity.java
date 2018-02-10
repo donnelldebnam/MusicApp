@@ -10,6 +10,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+    }
+
+    // Button on click method
+    public void buttonOnClick(View view){
+        System.out.print("button clicked");
+
     }
     public void buttonOnClick(View view) {
         System.out.println("button clicked");
