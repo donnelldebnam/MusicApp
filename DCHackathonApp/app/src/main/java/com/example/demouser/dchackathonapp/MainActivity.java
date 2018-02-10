@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
 
 
     }
@@ -17,5 +18,8 @@ public class MainActivity extends AppCompatActivity {
     // Button on click method
     public void buttonOnClick(View view){
         System.out.print("button clicked");
+=======
+        //comment
+>>>>>>> df2eeabf3764ec8d1e34a4af77364218feab536e
     }
 }
