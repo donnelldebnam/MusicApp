@@ -100,5 +100,22 @@
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="399dp" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.) Choose a genre for the playlist"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <EditText
+        android:id="@+id/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="460dp" />
+
 </android.support.constraint.ConstraintLayout>
 
