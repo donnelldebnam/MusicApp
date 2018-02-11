@@ -18,7 +18,5 @@ public class MainActivity extends AppCompatActivity {
         System.out.print("button clicked");
 
     }
-    public void buttonOnClick(View view) {
-        System.out.println("button clicked");
-    }
+
 }
