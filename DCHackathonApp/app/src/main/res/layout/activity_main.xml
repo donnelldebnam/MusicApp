@@ -6,116 +6,176 @@
     android:layout_height="match_parent"
     tools:context="com.example.demouser.dchackathonapp.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="32dp"
-        android:text="Welcome to our Music App!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.419"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.033" />
 
 
-    <TextView
-        android:id="@+id/howManySongs"
-        android:layout_width="345dp"
-        android:layout_height="43dp"
-        android:text="1.) How many songs do you want on your playlist"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="61dp" />
 
-    <TextView
-        android:id="@+id/chooseMood"
-        android:layout_width="345dp"
-        android:layout_height="43dp"
-        android:text="2.) Pick a mood for your playlist"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="160dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:text="Welcome to our Music App!"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.419"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.033" />
+
+            <TextView
+                android:id="@+id/howManySongs"
+                android:layout_width="345dp"
+                android:layout_height="43dp"
+                android:text="1.) How many songs do you want on your playlist"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="61dp" />
+
+            <TextView
+                android:id="@+id/chooseMood"
+                android:layout_width="345dp"
+                android:layout_height="43dp"
+                android:text="2.) Pick a mood for your playlist"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="160dp" />
 
 
-    <EditText
-        android:id="@+id/numberOfSongs"
-        android:layout_width="wrap_content"
-        android:layout_height="43dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="104dp" />
+            <EditText
+                android:id="@+id/numberOfSongs"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:ems="10"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="104dp" />
 
-    <RadioButton
-        android:id="@+id/motivational"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Motivational"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="203dp" />
+            <RadioButton
+                android:id="@+id/motivational"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motivational"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="203dp" />
 
-    <RadioButton
-        android:id="@+id/heartbreak"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Heartbreak"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="239dp" />
+            <RadioButton
+                android:id="@+id/heartbreak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heartbreak"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="239dp" />
 
-    <RadioButton
-        android:id="@+id/latenight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Late Night"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="271dp" />
+            <RadioButton
+                android:id="@+id/latenight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Late Night"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="271dp" />
 
-    <RadioButton
-        android:id="@+id/cheerful"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cheerful"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="303dp" />
+            <RadioButton
+                android:id="@+id/cheerful"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheerful"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="303dp" />
 
-    <RadioButton
-        android:id="@+id/energetic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Energetic"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="335dp" />
+            <RadioButton
+                android:id="@+id/energetic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Energetic"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="335dp" />
 
-    <RadioButton
-        android:id="@+id/somber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Somber"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="367dp" />
+            <RadioButton
+                android:id="@+id/somber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Somber"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="367dp" />
 
-    <RadioButton
-        android:id="@+id/hype"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hype"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="399dp" />
+            <RadioButton
+                android:id="@+id/hype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hype"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="399dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="3.) Choose a genre for the playlist"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="436dp" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.) Choose a genre for the playlist"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="436dp" />
 
-    <EditText
-        android:id="@+id/genre"
-        android:layout_width="wrap_content"
-        android:layout_height="43dp"
-        android:ems="10"
-        android:inputType="text"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="460dp" />
+            <EditText
+                android:id="@+id/genre"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:ems="10"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="460dp" />
+
+            <RadioButton
+                android:id="@+id/hype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jazz"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="399dp" />
+            <RadioButton
+                android:id="@+id/hype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hip-Hop"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="399dp" />
+            <RadioButton
+                android:id="@+id/hype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pop"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="399dp" />
+            <RadioButton
+                android:id="@+id/hype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alternative"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="399dp" />
+            <RadioButton
+                android:id="@+id/hype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="399dp" />
+            <RadioButton
+                android:id="@+id/hype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rap"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="399dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
 
